@@ -20,5 +20,5 @@ resource "alicloud_security_group" "default" {
   port_range        = "1/65535"
   priority          = 1
   security_group_id = "alicloud_security_group.default. *.id"
-  cidr_ip           = "0.0.0.0/0" */
-}
+  cidr_ip           = "0.0.0.0/0" 
+}*/
