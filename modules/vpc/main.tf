@@ -12,7 +12,7 @@ resource "alicloud_security_group" "default" {
   vpc_id = alicloud_vpc.ali-vpc.id
 }
 
-resource "alicloud_security_group_rule" "allow_all_tcp" {
+/* resource "alicloud_security_group_rule" "allow_all_tcp" {
   type              = "ingress"
   ip_protocol       = "tcp"
   nic_type          = "intranet"
@@ -20,5 +20,5 @@ resource "alicloud_security_group_rule" "allow_all_tcp" {
   port_range        = "1/65535"
   priority          = 1
   security_group_id = "alicloud_security_group.default. *.id"
-  cidr_ip           = "0.0.0.0/0"
+  cidr_ip           = "0.0.0.0/0" */
 }
